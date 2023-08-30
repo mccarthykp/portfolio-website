@@ -967,3 +967,11 @@ h2 {
     right: 0;
   }
 }
+
+.copyright-footer {
+  color: rgba(120, 120, 120, 0.75);
+  font-size: 14px;
+  height: 6vh !important;
+  padding: 0px;
+  text-align: center;
+}
