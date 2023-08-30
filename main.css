@@ -128,7 +128,7 @@ h2 {
 }
 
 .project-1 {
-  background: rgb(220, 220, 220, .75);
+  background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   height: 400px;
   padding: 25px;
@@ -172,7 +172,7 @@ h2 {
 }
 
 .project-2 {
-  background: rgb(220, 220, 220, .75);
+  background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   height: 400px;
   padding: 25px;
@@ -216,7 +216,7 @@ h2 {
 }
 
 .project-3 {
-  background: rgb(220, 220, 220, .75);
+  background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   height: 400px;
   padding: 25px;
@@ -260,7 +260,7 @@ h2 {
 }
 
 .project-4 {
-  /* background: rgb(238, 239, 241, .75); */
+  /* background: rgba(240, 240, 240, 0.75); */
   border-radius: 32.5px;
   cursor: default !important;
   height: 400px;
@@ -575,7 +575,7 @@ h2 {
 /* Element styles */
 .individual-comment-container {
   aspect-ratio: 16/9;
-  background: rgba(220, 220, 220, 0.75);
+  background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   transition: .4s ease-in-out;
   width: 350px;
