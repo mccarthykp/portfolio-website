@@ -98,18 +98,26 @@ h2 {
 
 /* Scroll Arrow */
 .arrow-container {
+  border: 2px solid transparent;
+  border-radius: 20px;
   display: block;
   width: 50px;
-  height: 80px;
+  height: 50px;
   position: absolute;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 0px 0px;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%) rotateZ(0deg);
 }
 
 .arrow-container:hover {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
   cursor: pointer;
+  height: 50px;
+  padding: 0px;
+  width: 50px;
+  transition: ease-out border .5s;
 }
 
 .arrow-container:hover .blink {
@@ -129,8 +137,8 @@ h2 {
 }
 
 .arrow {
-  position: absolute;
   left: 50%;
+  position: absolute;
   transition: all 0.4s ease;
 }
 
@@ -143,7 +151,7 @@ h2 {
   background: #000000;
   width: 4px;
   height: 12.5px;
-  border-radius: 10px;
+  border-radius: 5px;
   transform: translate(-50%, -50%) rotateZ(-45deg);
 }
 
@@ -153,18 +161,18 @@ h2 {
 }
 
 .arrow:nth-child(1) {
-  opacity: 0.3;
-  top: 35%;
+  opacity: 0.15;
+  top: 5%;
 }
 
 .arrow:nth-child(2) {
-  opacity: 0.6;
-  top: 55%;
+  opacity: 0.3;
+  top: 45%;
 }
 
 .arrow:nth-child(3) {
-  opacity: 0.9;
-  top: 75%;
+  opacity: 0.7;
+  top: 85%;
 }
 
 /* Blinking Effect */

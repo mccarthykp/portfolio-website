@@ -41,7 +41,7 @@ function reverse_reveal() {
   for (var i = 0; i < disappears.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = disappears[i].getBoundingClientRect().top + 75;
-    var elementVisible = 350;
+    var elementVisible = 325;
     if (elementTop < windowHeight - elementVisible) {
       disappears[i].classList.add('active');
     } else {
@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
-
 
 // timeline
 $(window).on('scroll', function(){
