@@ -1121,4 +1121,12 @@ h2 {
   .timeline-container {
     width: 100%;
   }
+
+  .individual-comment-container {
+    width: 175px;
+  }
+
+  .copyright-footer {
+    margin-bottom: 15px;
+  }
 }
