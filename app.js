@@ -1,8 +1,8 @@
 new hoverEffect({
     parent: document.querySelector('.displacement-effect'), // class to add to div of img
-    image1: './src/profile-img/portrait.jpg', // ex. './filename'
-    image2: './src/profile-img/portrait.jpg',
-    displacementImage: './src/displacement-imgs/smoke.png',
+    image1: 'portrait.jpg', // ex. './filename'
+    image2: 'portrait.jpg',
+    displacementImage: 'smoke.png',
     imagesRatio: '1', // as float | ex 3/4 = .75,
     intensity: .75
 });
