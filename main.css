@@ -1123,7 +1123,50 @@ h2 {
   }
 
   .individual-comment-container {
-    width: 175px;
+    font-size: 10px;
+    width: 250px;
+  }
+
+  .icc-name {
+    font-size: 10px;
+  }
+
+  .icc-user {
+    font-size: 8.5px;
+    top: 50px;
+  }
+
+  .icc-comment {
+    font-size: 10px;
+    top: 52.5px;
+  }
+
+  .icc-linkedin {
+    height: 20px;
+    left: 197.5px;
+    top: 12.5px;
+    width: 20px;
+  }
+
+  .icc-twitter {
+    height: 20px;
+    left: 197.5px;
+    top: 12.5px;
+    width: 20px;
+  }
+
+  .icc-instagram {
+    height: 20px;
+    left: 197.5px;
+    top: 12.5px;
+    width: 20px;
+  }
+
+  .icc-tiktok {
+    height: 20px;
+    left: 197.5px;
+    top: 12.5px;
+    width: 20px;
   }
 
   .copyright-footer {
