@@ -1122,6 +1122,12 @@ h2 {
     width: 100%;
   }
 
+  .glitch-button {
+    --btn-padding: 15px 85px;
+    padding: var(--btn-padding);
+    font: 14px;
+  }
+
   #comments-section {
     margin: 75px 0 !important;
   }
