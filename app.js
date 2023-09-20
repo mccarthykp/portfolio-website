@@ -123,13 +123,3 @@ $(window).on('scroll', function(){
   var timeline = $('#vertical-scrollable-timeline li');
   Array.from(timeline).forEach(isScrollIntoView);
 });
-
-// Double-tap to zoom on mobile
-var doubleTouchStartTimestamp = 0;
-document.addEventListener("touchstart", function(event){
-    var now = +(new Date());
-    if (doubleTouchStartTimestamp + 500 > now){
-        event.preventDefault();
-    };
-    doubleTouchStartTimestamp = now;
-});

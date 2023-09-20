@@ -1124,9 +1124,13 @@ h2 {
   }
 
   .glitch-button {
-    --btn-padding: 15px 80px;
+    --btn-padding: 30px 80px 22px;
     padding: var(--btn-padding);
     font-size: 14px;
+  }
+
+  .expand-icon {
+    display: none;
   }
 
   #comments-section {
