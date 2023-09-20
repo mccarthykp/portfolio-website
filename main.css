@@ -84,6 +84,7 @@ h2 {
 /* Typing Animation -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~- */
 .typed-cursor {
   animation: blink 1s infinite;
+  animation-delay: 0s;
   -webkit-animation: blink 1s infinite;
   -moz-animation: blink 1s infinite;
   color: rgb(19, 146, 146);
@@ -219,6 +220,7 @@ h2 {
 }
 
 .project-1 {
+  animation-delay: 0s;
   background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   height: 400px;
@@ -263,6 +265,7 @@ h2 {
 }
 
 .project-2 {
+  animation-delay: 0s;
   background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   height: 400px;
@@ -307,6 +310,7 @@ h2 {
 }
 
 .project-3 {
+  animation-delay: 0s;
   background: rgba(240, 240, 240, 0.75);
   border-radius: 32.5px;
   height: 400px;
@@ -410,14 +414,17 @@ h2 {
  
  .drop-in {
   animation: drop-in 700ms ease-in-out 225ms backwards;
+  animation-delay: 0s; 
  }
  
  .drop-in-2 {
   animation: drop-in 700ms ease-in-out 550ms backwards;
+  animation-delay: 0s;
  }
 
  .drop-in-3 {
   animation: drop-in 700ms ease-in-out 1000ms backwards;
+  animation-delay: 0s;
  }
  
  @keyframes drop-in {
@@ -481,14 +488,17 @@ h2 {
 
 .active.fade-in {
   animation: fade-in .75s ease-in-out;
+  animation-delay: 0s;
 }
 
 .active.fade-left {
   animation: drop-in .75s ease-in-out;
+  animation-delay: 0s;
 }
 
 .active.fade-right {
   animation: drop-in .75s ease-in-out;
+  animation-delay: 0s;
 }
 
 @keyframes fade-in {
@@ -728,6 +738,7 @@ h2 {
   background: inherit;
   letter-spacing: 4px;
   animation: chitchat linear both 1.2s;
+  animation-delay: 0s;
 }
 
 @keyframes chitchat {
@@ -864,6 +875,7 @@ h2 {
 .comments_group1, .comments_group2, .comments_group3, .comments_group4 {
   align-items: center;
   animation: slide-x 22.5s linear infinite;
+  animation-delay: 0s;
   display: flex;
   flex-shrink: 0;
   gap: 30px;
@@ -882,7 +894,7 @@ h2 {
 }
 
 .all-comments-container--reverse .comments_group1, .all-comments-container--reverse .comments_group2, .all-comments-container--reverse .comments_group3, .all-comments-container--reverse .comments_group4 {
-  animation-delay: -15s;
+  animation-delay: 0s;
   animation-direction: reverse;
 }
 
