@@ -1057,6 +1057,7 @@ h2 {
   }
   
   .header-section {
+    padding: 0px 0px 0px 15px;
     width: 350px;
   }
 
@@ -1146,7 +1147,7 @@ h2 {
       transform: translate3d(0, 0, 0);
     }
     100% {
-      transform: translate3d(-2250px, 0, 0);
+      transform: translate3d(-2240px, 0, 0);
     }
   }
 
