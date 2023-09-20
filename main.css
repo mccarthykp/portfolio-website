@@ -863,7 +863,7 @@ h2 {
 
 .comments_group1, .comments_group2, .comments_group3, .comments_group4 {
   align-items: center;
-  animation: slide-x 25s linear infinite;
+  animation: slide-x 22.5s ease-in-out infinite;
   display: flex;
   flex-shrink: 0;
   gap: 30px;
@@ -1127,12 +1127,21 @@ h2 {
   }
 
   .all-comments-container {
-    gap: 0px;
+    gap: 10px !important;
   }
 
   .individual-comment-container {
     font-size: 10px;
     width: 250px;
+  }
+
+  @keyframes slide-x {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-2240px, 0, 0);
+    }
   }
 
   .icc-name {
