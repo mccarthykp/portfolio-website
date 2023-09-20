@@ -1125,7 +1125,7 @@ h2 {
   .glitch-button {
     --btn-padding: 15px 50px;
     padding: var(--btn-padding);
-    font: 10px !important;
+    font-size: 10px !important;
   }
 
   #comments-section {
@@ -1193,7 +1193,7 @@ h2 {
   }
 
   .copyright-footer {
-    font: 10px;
+    font-size: 10px;
     margin-bottom: 20px;
   }
 }
