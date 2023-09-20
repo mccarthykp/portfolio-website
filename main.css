@@ -1129,11 +1129,11 @@ h2 {
   }
 
   #comments-section {
-    margin: 95px 0;
+    margin: 75px 0;
   }
 
-  .comments_group1, .comments_group2, .comments_group3, .comments_group4 {
-    padding: 0px;
+  .comments_group3, .comments_group4 {
+    padding: 0 0 5px 0;
   }
 
   .individual-comment-container {
@@ -1152,7 +1152,7 @@ h2 {
 
   .icc-name {
     font-size: 10px;
-    top: 20px;
+    top: 22.5px;
   }
 
   .icc-user {
@@ -1168,33 +1168,33 @@ h2 {
   .icc-linkedin {
     height: 20px;
     left: 197.5px;
-    top: 2.5px;
+    top: 5px;
     width: 20px;
   }
 
   .icc-twitter {
     height: 20px;
     left: 197.5px;
-    top: 2.5px;
+    top: 5px;
     width: 20px;
   }
 
   .icc-instagram {
     height: 20px;
     left: 197.5px;
-    top: 2.5px;
+    top: 5px;
     width: 20px;
   }
 
   .icc-tiktok {
     height: 20px;
     left: 197.5px;
-    top: 2.5px;
+    top: 5px;
     width: 20px;
   }
 
   .copyright-footer {
-    font-size: 12px;
-    margin-bottom: 16px;
+    font-size: 10px !important;
+    margin-bottom: 16px !important;
   }
 }
