@@ -1122,6 +1122,13 @@ h2 {
     width: 100%;
   }
 
+  #comments-section {
+    /* gap: 30px; */
+    overflow-x: hidden;
+    margin: 75px 0;
+    width: 100%;
+  }
+
   .individual-comment-container {
     font-size: 10px;
     width: 250px;
