@@ -1123,7 +1123,7 @@ h2 {
   }
 
   .glitch-button {
-    --btn-padding: 15px 90px;
+    --btn-padding: 15px 80px;
     padding: var(--btn-padding);
     font-size: 14px;
   }
