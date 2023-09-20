@@ -1152,6 +1152,7 @@ h2 {
 
   .icc-name {
     font-size: 10px;
+    top: 25px;
   }
 
   .icc-user {
@@ -1167,28 +1168,28 @@ h2 {
   .icc-linkedin {
     height: 20px;
     left: 197.5px;
-    top: 12.5px;
+    top: 7.5px;
     width: 20px;
   }
 
   .icc-twitter {
     height: 20px;
     left: 197.5px;
-    top: 12.5px;
+    top: 7.5px;
     width: 20px;
   }
 
   .icc-instagram {
     height: 20px;
     left: 197.5px;
-    top: 12.5px;
+    top: 7.5px;
     width: 20px;
   }
 
   .icc-tiktok {
     height: 20px;
     left: 197.5px;
-    top: 12.5px;
+    top: 7.5px;
     width: 20px;
   }
 
