@@ -110,7 +110,7 @@ h2 {
   transform: translate(-50%, -50%) rotateZ(0deg);
 }
 
-.arrow-container:hover {
+.arrow-container:hover, .arrow-container:active{
   border: 2px solid rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   cursor: pointer;
@@ -229,7 +229,7 @@ h2 {
   z-index: 3;
 }
 
-.project-1:hover {
+.project-1:hover, .project-1:active {
   background: white;
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
@@ -273,7 +273,7 @@ h2 {
   z-index: 3;
 }
 
-.project-2:hover {
+.project-2:hover, .project-2:active {
   background: white;
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
@@ -317,7 +317,7 @@ h2 {
   z-index: 3;
 }
 
-.project-3:hover {
+.project-3:hover, .project-3:active {
   background: white;
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
@@ -699,7 +699,7 @@ h2 {
   top: 0;
 }
 
-.glitch-button:hover {
+.glitch-button:hover, .glitch-button:active {
   color: rgb(19, 146, 146);
   background: #ffffff;
   transition: .4s;
