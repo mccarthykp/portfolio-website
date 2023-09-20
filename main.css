@@ -151,7 +151,7 @@ h2 {
   background: #000000;
   width: 4px;
   height: 12.5px;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   transform: translate(-50%, -50%) rotateZ(-45deg);
 }
 
