@@ -104,7 +104,7 @@ h2 {
   width: 55px;
   height: 55px;
   position: absolute;
-  padding: 0px 0px 0px 0px;
+  padding: 2px 0px 2px 0px;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%) rotateZ(0deg);
