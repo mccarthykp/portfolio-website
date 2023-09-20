@@ -1144,13 +1144,9 @@ h2 {
   @keyframes slide-x {
     0% {
       transform: translate3d(0, 0, 0);
-      -webkit-perspective: 1000;
-      -webkit-backface-visibility: hidden;
     }
     100% {
-      transform: translate3d(-2210px, 0, 0);
-      -webkit-perspective: 1000;
-      -webkit-backface-visibility: hidden;
+      transform: translate3d(-2250px, 0, 0);
     }
   }
 
