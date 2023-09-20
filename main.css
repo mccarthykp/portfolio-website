@@ -1126,8 +1126,8 @@ h2 {
     margin: 75px 0 !important;
   }
 
-  .all-comments-container {
-    gap: 10px !important;
+  .comments_group1, .comments_group2, .comments_group3, .comments_group4 {
+    padding: 0px !important;
   }
 
   .individual-comment-container {
