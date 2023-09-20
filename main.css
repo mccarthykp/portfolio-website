@@ -1125,19 +1125,19 @@ h2 {
   .glitch-button {
     --btn-padding: 15px 50px;
     padding: var(--btn-padding);
-    font-size: 10px !important;
+    font-size: 10px;
   }
 
   #comments-section {
-    margin: 95px 0 !important;
+    margin: 95px 0;
   }
 
   .comments_group1, .comments_group2, .comments_group3, .comments_group4 {
-    padding: 0px !important;
+    padding: 0px;
   }
 
   .individual-comment-container {
-    font-size: 10px !important;
+    font-size: 10px;
     width: 250px;
   }
 
