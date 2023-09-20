@@ -152,12 +152,12 @@ h2 {
   width: 4px;
   height: 12.5px;
   border-radius: 5px;
-  transform: translate(-45%, -50%) rotateZ(-50deg);
+  transform: translate(-4%, -50%) rotateZ(-50deg);
 }
 
 .arrow:after {
   transform-origin: bottom left;
-  transform: translate(-50%, -50%) rotateZ(50deg);
+  transform: translate(-30%, -50%) rotateZ(50deg);
 }
 
 .arrow:nth-child(1) {
@@ -1124,7 +1124,7 @@ h2 {
   }
 
   .glitch-button {
-    --btn-padding: 30px 80px 22px;
+    --btn-padding: 30px 90px 20px;
     padding: var(--btn-padding);
     font-size: 14px;
   }
