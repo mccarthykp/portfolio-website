@@ -1148,7 +1148,7 @@ h2 {
       -webkit-backface-visibility: hidden;
     }
     100% {
-      transform: translate3d(-2240px, 0, 0);
+      transform: translate3d(-2210px, 0, 0);
       -webkit-perspective: 1000;
       -webkit-backface-visibility: hidden;
     }
